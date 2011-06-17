@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  dm_version_peg = '~>1.1'
+  dm_version_peg = '~>1.1.1'
   s.add_dependency('dm-core',       dm_version_peg)
   s.add_dependency('dm-migrations', dm_version_peg)
   s.add_dependency('dm-serializer', dm_version_peg)
