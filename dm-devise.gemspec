@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   dm_version_peg = '~>1.1'
   s.add_dependency('dm-core',       dm_version_peg)
   s.add_dependency('dm-migrations', dm_version_peg)
-  s.add_dependency('dm-serializer', dm_version_peg)
+  # s.add_dependency('dm-serializer', dm_version_peg)
   s.add_dependency('dm-timestamps', dm_version_peg)
   s.add_dependency('dm-rails',      dm_version_peg)
   s.add_dependency('devise', '~> 1.3.0')
