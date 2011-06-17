@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.add_dependency('dm-serializer', dm_version_peg)
   s.add_dependency('dm-timestamps', dm_version_peg)
   s.add_dependency('dm-rails',      dm_version_peg)
-  s.add_dependency('devise', '~> 1.3.0')
-  s.add_dependency('sugar-high', '~> 0.2.10')
+  s.add_dependency('devise',        '~> 1.3')
+  s.add_dependency('sugar-high',    '~> 0.2.10')
 end
